@@ -39,13 +39,36 @@ body {
   width: 100%;
 }
 
-.text-box {
+.text-box-main {
   width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.text-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
 .public {
   height: 100%;
+}
+
+.page-contents {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.project-styling {
+  width: 100%!;
+  /* margin-bottom: 10px; */
+}
+
+ul.bulleted-list {
+  list-style-type: circle;
+  list-style-position: inside;
 }

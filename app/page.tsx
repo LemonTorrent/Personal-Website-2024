@@ -19,7 +19,7 @@ export default function Home() {
                   height="300"
               />
             </div>
-            <div className="text-box">
+            <div className="text-box-main">
               <h1>Hello! Welcome to the Lemon Life</h1>
               <p> My name is Nicole and I am a software engineer based out of Portland, OR. For any inqueries or offers for employment, please reach out to nyarbrough14@gmail.com</p>
             </div>
