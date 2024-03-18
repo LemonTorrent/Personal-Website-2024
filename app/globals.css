@@ -19,8 +19,7 @@
 
 body {
   /* background-color: #1B998B; */
-  background-color: white;
-  /* background-color: #FCEEF1; */
+  background-color: #FCEEF1;
   /* color: #FCF5C7; */
   color: black;
 
@@ -33,14 +32,14 @@ body {
     rgb(var(--background-start-rgb)); */
 }
 
-.homepage-styling {
+/* .homepage-styling {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-}
+} */
 
-.text-box-main {
+/* .text-box-main {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -53,6 +52,13 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 10px;
+} */
+
+.homepage-styling {
+  background-image: url(../public/images/edited-cloud-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .public {
