@@ -1,19 +1,23 @@
 import Image from 'next/image'
 import Navbar from './components/navigation/navbar'
 import { useEffect, useState } from 'react';
+// import useWindowDimensions from './components/UseWindowDimensions'
+
+// const {height, width} = useWindowDimensions()
 
 export default function Home() {
+  // const [height, setHeight] = useState(useWindowDimensions().height)
   
   return (
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <div className="homepage-styling">
+    <div className="homepage-styling h-screen">
     
       <main className="content flex flex-col p-24 pb-0 pt-32">
         {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex padding:0"> */}
         <div className="">
           <main>
             
-            <div className="homepage-styling flex flex-col">
+            <div className="flex flex-col">
               {/* <div className="image-box">
                 <Image
                     src="/images/Headshot.jpg"
