@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import Button from "./Button";
 
 const Navbar = () => {
+
+  // const windowObject = window
+
+  // console.log("Window width:", window)
+
   return (
     <>
       <div className="w-full h-18 sticky top-0 bg-[#F2B0BD] text-white">

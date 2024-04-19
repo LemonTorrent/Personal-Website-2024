@@ -22,6 +22,9 @@ body {
   background-color: #FCEEF1;
   /* color: #FCF5C7; */
   color: black;
+  font-family: "Short Stack", cursive !important;
+  font-weight: 400;
+  font-style: normal;
 
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
