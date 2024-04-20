@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Navbar from './components/navigation/navbar'
 import { useEffect, useState } from 'react';
+import EmailForm from './components/email-form/EmailForm';
 // import useWindowDimensions from './components/UseWindowDimensions'
 
 // const {height, width} = useWindowDimensions()
@@ -18,20 +19,24 @@ export default function Home() {
           <main>
             
             <div className="flex flex-col">
-              {/* <div className="image-box">
+              <div className="image-box-home content flex justify-center items-center w-full pb-10">
                 <Image
-                    src="/images/Headshot.jpg"
+                    src="/images/programming.png"
                     alt="Profile Picture"
-                    width="350"
-                    height="300"
+                    width="300"
+                    height="200"
                 />
-              </div> */}
+              </div>
             
               <div className="text-box-main">
                 <h1>Hello! Welcome to the Lemon Life</h1>
                 <p> My name is Nicole and I am a software engineer based out of Portland, OR. For any inqueries or offers for employment, please reach out to nyarbrough14@gmail.com</p>
               </div>
             </div>
+
+            {/* <div>
+              <EmailForm />
+            </div> */}
             
           </main>
         </div>
